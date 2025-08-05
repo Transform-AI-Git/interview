@@ -1,0 +1,28 @@
+{
+	"name": "@interview/api",
+	"version": "1.0.0",
+	"description": "node api",
+	"main": "main.ts",
+	"scripts": {
+		"dev": "nodemon --exec tsx src/main.ts",
+		"build": "tsc",
+		"start": "node dist/main.js",
+		"typecheck": "tsc --noEmit",
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.2.0",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.1",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.19",
+		"nodemon": "^3.1.10",
+		"tsx": "^4.20.3",
+		"typescript": "^5.9.2"
+	}
+}

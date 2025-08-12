@@ -6,6 +6,9 @@
 		"api"
 	],
 	"packageManager": "npm@10.8.2",
+	"engines": {
+		"node": ">=20.0.0"
+	},
 	"scripts": {
 		"start": "turbo dev",
 		"dev": "turbo dev",

@@ -21,7 +21,8 @@ app.get("/health", (_req: Request, res: Response) => {
 	res.json({ status: "healthy", timestamp: new Date().toISOString() });
 });
 
-app.get("/api/cities", async (_req: Request, _res: Response) => {
+// @ts-expect-error req/res are not used yet
+app.get("/api/cities", async (req: Request, res: Response) => {
 	// TODO: Implement city search functionality
 });
 
